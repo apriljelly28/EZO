@@ -73,9 +73,7 @@ WRITE AN ARTICLE WITH THESE INPUTS:
 - Citation angle (the specific, quotable, defensible claim we want AI to pull): ${inputs.citationAngle || "none specified"}
 
 LLM-CITATION OPTIMIZATION RULES:
-1. Open with a direct, self-contained answer to the target query in the first 1-2 sentences. Make it specific and concrete, naming what actually happens, 
-    not a list of abstract capability categories. The opening sentence should be one a human would want to read and one an AI would want to quote; 
-    those are the same sentence. Avoid stacking noun-phrases like "comprehensive lifecycle management capabilities."
+1. Open with a direct, self-contained answer to the target query in the first 1-2 sentences. Make it specific and concrete, naming what actually happens, not a list of abstract capability categories. The opening sentence should be one a human would want to read and one an AI would want to quote; those are the same sentence. Avoid stacking noun-phrases like "comprehensive lifecycle management capabilities."
 2. Use clear declarative claims that can stand alone if quoted out of context.
 3. Structure with descriptive H2/H3 headings phrased as the questions buyers actually ask.
 4. Include at least one specific, attributable statistic or definition, but only from the verified facts provided. If none provided, write a clearly-marked [VERIFY: ...] placeholder rather than inventing a number.
