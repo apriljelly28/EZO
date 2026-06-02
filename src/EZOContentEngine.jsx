@@ -81,11 +81,11 @@ LLM-CITATION OPTIMIZATION RULES:
 6. End with a short FAQ block of 3 question-answer pairs, each answer self-contained and quotable.
 
 WRITING CONSTRAINTS (follow strictly):
-- Never use these words: "quietly," "resonate," "wild," "genuinely."
+- Never use these words: "quietly," "resonate," "wild," "genuinely," "robust."
 - Never use the number "47" or the word "Tuesday."
 - Never begin any phrase with "here's what."
 - Never use the "it's not X, it's Y" construction.
-- Never use the phrase "uncomfortable truth," "hit different," or similar AI-style buzzwords.
+- Never use the phrase "uncomfortable truth," "hit different," "rapidly changing landscape," or similar AI-style buzzwords.
 - Never use em dashes; use commas or restructure the sentence instead.
 - No corporate jargon and no overly cheesy language.
 - Avoid choppy stacked short sentences and heavy parallel construction. Favor flowing, comma-forward prose.
