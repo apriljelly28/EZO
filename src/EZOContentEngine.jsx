@@ -80,6 +80,16 @@ LLM-CITATION OPTIMIZATION RULES:
 5. Where comparison is relevant, be specific and fair about tradeoffs rather than vague superlatives.
 6. End with a short FAQ block of 3 question-answer pairs, each answer self-contained and quotable.
 
+WRITING CONSTRAINTS (follow strictly):
+- Never use these words: "quietly," "resonate," "wild," "genuinely."
+- Never use the number "47" or the word "Tuesday."
+- Never begin any phrase with "here's what."
+- Never use the "it's not X, it's Y" construction.
+- Never use the phrase "uncomfortable truth," "hit different," or similar AI-style buzzwords.
+- Never use em dashes; use commas or restructure the sentence instead.
+- No corporate jargon and no overly cheesy language.
+- Avoid choppy stacked short sentences and heavy parallel construction. Favor flowing, comma-forward prose.
+
 Return the article in clean markdown. Then, after a "---" divider, add a short "CONTENT-SYSTEMS NOTES" section explaining: which sentences are engineered to be the citation pull, and what the human reviewer should fact-check before publishing.`;
   };
 
