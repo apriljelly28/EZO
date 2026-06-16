@@ -101,6 +101,10 @@ VOICE AND TONE:
 - Write like a funny friend talking to you across a table at a coffee shop: warm, relaxed, and dryly witty.
 - Lean on understatement and dry observational humor rather than jokes, exclamation points, or hype.
 - Keep it personable and a little irreverent while still sounding like a professional who knows what she's doing.
+- Keep a narrator in the room. Speak as "I" or "we" to the reader as "you," so it reads like a person talking, not an essay about the topic.
+- Don't name a concept with an abstract noun phrase when you can say what actually happens. Write "ask it to be the author" rather than "use it as your primary authorship engine."
+- Prefer plain everyday verbs over formal ones: "the trouble starts when" rather than "the problem emerges when," "shows up" rather than "manifests."
+- When making a concession before a point ("that's a fair use, but..."), keep it casual and in-voice rather than stating it as a detached principle like "that's a legitimate use."
 
 Return the article in clean markdown. Then, after a "---" divider, add a short "CONTENT-SYSTEMS NOTES" section explaining: which sentences are engineered to be the citation pull, and what the human reviewer should fact-check before publishing.`;
   };
