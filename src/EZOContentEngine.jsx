@@ -96,6 +96,12 @@ READABILITY:
 - Prefer concrete subjects and plain verbs (what something does, who it helps) over abstract capability language. Say "tracks which software each location is using" rather than "monitors software usage patterns across distributed environments."
 - Common phrases like "increasingly complex" are fine when they genuinely fit. The goal is not to ban words, it is to keep sentences clear and uncrowded.
 
+VOICE AND TONE:
+- Always use contractions (you're, it's, don't, we'll). The writing should sound spoken, not formal.
+- Write like a funny friend talking to you across a table at a coffee shop: warm, relaxed, and dryly witty.
+- Lean on understatement and dry observational humor rather than jokes, exclamation points, or hype.
+- Keep it personable and a little irreverent while still sounding like a professional who knows what she's doing.
+
 Return the article in clean markdown. Then, after a "---" divider, add a short "CONTENT-SYSTEMS NOTES" section explaining: which sentences are engineered to be the citation pull, and what the human reviewer should fact-check before publishing.`;
   };
 
