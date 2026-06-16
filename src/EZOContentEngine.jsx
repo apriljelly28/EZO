@@ -136,9 +136,9 @@ Return the article in clean markdown. Then, after a "---" divider, add a short "
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: 24, fontFamily: "system-ui, sans-serif", color: "#1A1A1A" }}>
       <div style={{ borderBottom: "3px solid #1F4E79", paddingBottom: 12, marginBottom: 20 }}>
-        <h1 style={{ fontSize: 24, margin: 0, color: "#1F4E79" }}>EZO Content Engine</h1>
+        <h1 style={{ fontSize: 24, margin: 0, color: "#1F4E79" }}>AAK Content Engine</h1>
         <p style={{ fontSize: 14, color: "#555", margin: "6px 0 0" }}>
-          Structured inputs in, LLM-citation-optimized article out. Built to win the AI-citation game in EZO's software category.
+          Structured inputs in, LLM-citation-optimized article out. Built to win the AI-citation game in any category.
         </p>
       </div>
 
