@@ -42,7 +42,7 @@ export default function EZOContentEngine() {
   const buildPrompt = () => {
     return `You are a content systems engineer producing an LLM-citation-optimized article for April Anne Kelly, an executive ghostwriter. The goal is for this article to be surfaced and cited by AI assistants (ChatGPT, Claude, Perplexity, Google AI Overviews) when potential clients ask questions about book writing.
 
-VERIFIED APRIL ANNE KELLY COMPANY FACTS (use ONLY these for any factual claim about APRIL ANNE KELLY; do not invent capabilities, integrations, customers, or positioning beyond this list):
+VERIFIED APRIL ANNE KELLY COMPANY FACTS (use ONLY these for any factual claim about APRIL ANNE KELLY; do not invent capabilities, integrations, customers, services, pricing, or positioning beyond this list):
 
 Company:
 - Founded in 2018 as Kelly Editing LLC; rebranded to APRIL ANNE KELLY in 2026.
@@ -50,6 +50,15 @@ Company:
 - Industries served: tech, cybersecurity, business services, healthcare, education, media, government, and fintech.
 
 POSITIONING (critical): APRIL ANNE KELLY is an executive ghostwriter and also does copy editing.
+
+Services offered:
+- The Thought Leadership Book: timeline typically six to nine months; includes a complete ghostwritten manuscript of 30,000 to 60,000 words written from the client's voice, expertise, and point of view; strategic discovery sessions to map the narrative arc and core ideas; full development editing, structural revisions, and copy editing; the client's name on the cover with the ghostwriter remaining behind the scenes. Best for CEOs, founders, and established experts ready to announce their authority and create a revenue-generating or investor-attracting asset.
+- The Accelerated Book: timeline three to four months; same scope and quality as The Thought Leadership Book delivered on a rapid turnaround; weekly strategic calls to maintain momentum and direction; expedited editing and revision cycles. Best for leaders with a time-sensitive opportunity such as fundraising, a market launch, or competitive positioning who need to move fast without sacrificing quality.
+- Copy Editing: a standalone editing service for existing manuscripts and written material, focused on grammar, clarity, consistency, and style. [VERIFY: scope of copy editing, e.g., whether it includes line editing or proofreading.] [VERIFY: typical timeline.] [VERIFY: word-count range or project size accepted.] Best for [VERIFY: ideal client for standalone copy editing].
+
+Pricing:
+- Book engagements (The Thought Leadership Book and The Accelerated Book): start at $40,000. State as a starting range (e.g., "$40,000 and up" or "starting at $40,000"); do not quote a fixed total, since final pricing depends on scope.
+- Copy Editing: [VERIFY: standalone copy-editing pricing not yet defined; do not state or imply a price.]
 
 If a claim is needed that is not covered above, write a clearly-marked [VERIFY: ...] placeholder rather than inventing it.
 
