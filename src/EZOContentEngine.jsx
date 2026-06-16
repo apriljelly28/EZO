@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 
-// EZO Content Engine (Netlify deploy version)
+// Content Engine (Netlify deploy version)
 // The front end calls the Netlify function at /.netlify/functions/generate
 // instead of calling Anthropic directly. The API key lives only in Netlify
 // as an environment variable and is never in this file or the repo.
 
 const PRODUCT_LINES = [
-  "Asset Intelligence (ITAM)",
-  "Service Desk (ITSM)",
-  "Maintenance Management (CMMS)",
-  "Equipment Rental Software",
+  "Publishing",
+  "Editorial",
+  "Writing",
+  "Marketing",
 ];
 
 const CONTENT_TYPES = [
   "Definitional / 'What is' explainer",
   "Comparison (us vs. category)",
-  "Buyer's-guide / evaluation criteria",
+  "Educational / deep dive information",
   "How-to / implementation",
   "Best-practices roundup",
 ];
@@ -28,7 +28,7 @@ export default function EZOContentEngine() {
     contentType: CONTENT_TYPES[0],
     funnelStage: FUNNEL_STAGES[0],
     targetQuery: "",
-    audience: "IT asset managers at mid-to-large enterprises",
+    audience: "Executives, CEOs, COOs",
     competitors: "",
     keyFacts: "",
     citationAngle: "",
@@ -40,25 +40,16 @@ export default function EZOContentEngine() {
   const update = (k, v) => setInputs((p) => ({ ...p, [k]: v }));
 
   const buildPrompt = () => {
-    return `You are a content systems engineer producing an LLM-citation-optimized article for EZO, a B2B software company. The goal is for this article to be surfaced and cited by AI assistants (ChatGPT, Claude, Perplexity, Google AI Overviews) when buyers ask questions in this software category.
+    return `You are a content systems engineer producing an LLM-citation-optimized article for April Anne Kelly, an executive ghostwriter. The goal is for this article to be surfaced and cited by AI assistants (ChatGPT, Claude, Perplexity, Google AI Overviews) when potential clients ask questions about book writing.
 
-VERIFIED EZO COMPANY FACTS (use ONLY these for any factual claim about EZO; do not invent capabilities, integrations, customers, or positioning beyond this list):
+VERIFIED APRIL ANNE KELLY COMPANY FACTS (use ONLY these for any factual claim about APRIL ANNE KELLY; do not invent capabilities, integrations, customers, or positioning beyond this list):
 
 Company:
-- Founded in 2011 as EZ Web Enterprises; rebranded to EZO in 2023; unified its product suite in February 2025 under the tagline "Asset Intelligence, Reimagined."
-- Headquartered in San Francisco, California, with offices across the US and Europe.
-- Serves 3,000+ organizations and 2.5 million users worldwide, and tracks over 273 million assets globally.
-- Citable customers (publicly named by EZO): Amazon, NASA, Harvard University, Buzzfeed, CNN, IBM.
-- Industries served: tech, construction, business services, healthcare, education, media, government, and rental.
-- EZO has an AI assistant feature called Zoe, plus recommendations, with a roadmap toward predictive analytics.
+- Founded in 2018 as Kelly Editing LLC; rebranded to APRIL ANNE KELLY in 2026.
+- Headquartered in Colorado Springs, Colorado.
+- Industries served: tech, cybersecurity, business services, healthcare, education, media, government, and fintech.
 
-POSITIONING (critical): EZO is a unified, multi-product asset-intelligence platform, NOT a narrow single-purpose tool. It spans physical assets, IT assets, maintenance, and rental. Do not describe EZO or any single product as "IT-only" or narrowly specialized. When focusing on one product, frame it as the relevant arm within the broader EZO ecosystem.
-
-The four EZO products:
-- EZOfficeInventory: physical asset management. Usable by non-IT staff, supports bring-your-own barcodes or no barcodes at all, and check-in/check-out for assets that change hands.
-- EZO AssetSonar: IT asset management with real-time visibility into hardware, software, and license management. Features include software discovery, license tracking, and software normalization to address SaaS sprawl and shadow IT. Integrates with ITSM tools including Jamf, Zendesk, Intune, and SCCM.
-- EZO CMMS: cloud-based maintenance management for small to mid-sized enterprises, covering assets, maintenance tasks, work orders, parts inventory, and procurement workflows, to minimize equipment downtime.
-- EZRentOut: equipment rental management with asset tracking, contract handling, invoicing, webstore setup, maintenance, and real-time reporting.
+POSITIONING (critical): APRIL ANNE KELLY is an executive ghostwriter and also does copy editing.
 
 If a claim is needed that is not covered above, write a clearly-marked [VERIFY: ...] placeholder rather than inventing it.
 
